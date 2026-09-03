@@ -1,0 +1,25 @@
+[project]
+name = "resume-genie"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "MHassanEjaz", email = "hassanejaz2216@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "langchain-community>=0.4.2",
+    "langchain-openai>=1.6.0",
+    "pillow>=12.3.0",
+    "pypdf>=6.16.2",
+    "python-dotenv>=1.2.3",
+    "requests>=2.34.2",
+    "streamlit>=1.63.0",
+]
+
+[project.scripts]
+resume-genie = "resume_genie:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
