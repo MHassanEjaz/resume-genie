@@ -1,5 +1,6 @@
 # 📄 Resume Genie — AI-Powered Resume Toolkit
 
+🔗 **[Live Demo](https://resumegenie-analyzer.streamlit.app)** | [GitHub Repo](https://github.com/MHassanEjaz/resume-genie)
 An all-in-one AI toolkit that helps job seekers optimize their resumes, match them against job descriptions, generate tailored cover letters, and get personalized career coaching — all powered by an LLM through a live-discovering, resilient API integration.
 
 ---
